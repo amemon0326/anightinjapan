@@ -1,0 +1,91 @@
+---
+---
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,300i,500,700');
+
+$background-color: #f7f9ff;
+$black: #0c0c0c;
+$red: #ff3500;
+$font-family: "Roboto";
+$h1-size: 80px;
+$h2-size: 40px;
+$h3-size: 24px;
+
+body {
+    background-color: $background-color;
+    font-family: $font-family, Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.1;
+    color: $black;
+    max-width: 780px;
+    margin: 80px auto 160px auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    
+    nav a {
+        font-weight: 500;
+        margin-left: 20px;
+        border-bottom: 2px solid $red;
+        padding-bottom: 3px;
+    }
+}
+
+h1 {
+    font-size: $h1-size;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: $h2-size;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+h3 {
+    font-size: $h3-size;
+    font-weight: 700;
+}
+
+a {
+    text-decoration: none;
+    color: $black;
+}
+
+.posts {
+    max-width: 540px;
+
+    p {
+        line-height: 1.5;
+    }
+}
+
+.read-cta {
+    display: flex;
+    align-items: center;
+
+    p {
+        font-weight: 500;
+        padding-right: 10px;
+    }
+
+    img {
+        padding-top: 3px;
+    }
+}
+
+.each-post {
+    margin: 80px 0px 80px 0px;
+}
+
+.sun {
+    position: fixed;
+    bottom: -250px;
+    right: -250px;
+    width: 500px;
+    height: 500px;
+    border-radius: 100%;
+    background-color: $red;
+}
